@@ -61,6 +61,11 @@ export const Img = styled.img`
    opacity: 0.1;
    padding: 0.25em 1em;
    border-radius: 3px;
+
+   @media screen and (max-width: 768px) {
+       width: 30%;
+       height: 30%;
+   }
  `;
 
 

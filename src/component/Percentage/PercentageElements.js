@@ -11,6 +11,10 @@ export const Wrapper = styled.div`
   overflow: hidden;
   align-items: center;
   margin-top: 35rem;
+
+  @media screen and (max-width: 768px) {
+    left: 0;
+  }
 `;
 
 export const Label = styled.label`
@@ -28,7 +32,7 @@ export  const Input = styled.input`
    margin-left: 4rem;
    background: #C4C4C4;
    border-radius: 8px;
-   text-align: left;
+   text-align: right;
    color: #151515;
    width: 60%;
    height: 60%;

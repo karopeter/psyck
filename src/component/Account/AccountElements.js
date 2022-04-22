@@ -11,6 +11,10 @@ export const Wrapper = styled.div`
    background: #F7F7F7;
    align-items: center;
    border-radius: 8px;
+
+   @media screen and (max-width: 768px) {
+     left: 0;
+   }
 `;
 
 export const Section = styled.div`

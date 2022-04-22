@@ -11,21 +11,21 @@ const PercentageSection = ({ id, demi, risk, ratio, account, gain}) => {
           <Row>
             <Col>
               <Label>{demi}</Label>
-              <Input type="text" placeholder="0" required />
+              <Input type="text" placeholder="USD" required />
             </Col>
             <Col>
               <Label>{risk}</Label>
-              <Input type="text" placeholder="0" required />
+              <Input type="text" placeholder="USD" required />
             </Col>
           </Row>
           <Row>
               <Col>
                 <Label>{ratio}</Label>
-                <Input type="text" placeholder="0" required />
+                <Input type="text" placeholder="USD" required />
               </Col>
               <Col>
                <Label>{account}</Label>
-               <Input type="text" placeholder="0" required />
+               <Input type="text" placeholder="USD" required />
               </Col>
           </Row>
       </Container>
@@ -33,7 +33,7 @@ const PercentageSection = ({ id, demi, risk, ratio, account, gain}) => {
          <Row>
             <Col>
               <Label>{gain}</Label>
-              <Input type="text" placeholder="0" required />
+              <Input type="text" placeholder="USD" required />
             </Col>
           </Row>
       </Container>
