@@ -4,17 +4,22 @@ export const Wrapper = styled.div`
    position: absolute;
    width: 700px;
    height: 518px;
-   z-index: 0;
-   left: 40rem;
+   padding: 2rem;
+   margin-left: 33rem;
    margin-top: 3rem;
-   overflow: hidden;
    background: #F7F7F7;
-   align-items: center;
+   background-position: cover;
    border-radius: 8px;
 
-   @media screen and (max-width: 768px) {
-     left: 0;
-   }
+   @media screen and (max-width: 960px) {
+      left: 0;
+      transition: 0.8s all ease;
+    }
+  
+    @media screen and (max-width: 960px) {
+       left: 0;
+       transition: 0.8s all ease;
+    }
 `;
 
 export const Section = styled.div`

@@ -6,14 +6,19 @@ export const Wrapper = styled.div`
   width: 700px;
   height: 518px;
   position: absolute;
-  z-index: 0;
-  left: 40rem;
+  margin-left: 33rem;
   overflow: hidden;
-  align-items: center;
+  background-position: cover;
   margin-top: 35rem;
 
   @media screen and (max-width: 768px) {
     left: 0;
+    transition: 0.8s all ease;
+  }
+
+  @media screen and (max-width: 408px) {
+     left: 0;
+     transition: 0.8s all ease;
   }
 `;
 
