@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   margin-left: 33rem;
   overflow: hidden;
   background-position: cover;
-  margin-top: 35rem;
+  margin-top: 36rem;
 
   @media screen and (max-width: 768px) {
     left: 0;

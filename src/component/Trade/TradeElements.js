@@ -32,7 +32,7 @@ export const Img = styled.img`
  width: 30%
  height: 30%;
  margin-top: 4rem;
- margin-left: 55rem;
+ margin-left: 45rem;
 
  @media screen and (max-width: 768px) {
    width: 15%;

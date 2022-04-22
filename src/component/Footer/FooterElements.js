@@ -24,7 +24,8 @@ export const Img = styled.img`
    width: 15%;
    height: 15%;
    margin-top: 1rem;
-   margin-left: 50rem;
+   margin-left: 37rem;
+   position: sticky;
 
    @media screen and (max-width: 768px) {
     width: 15%;
