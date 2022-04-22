@@ -9,18 +9,18 @@ import {
     NavLinks 
   } from './NavbarElements';
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
     return (
     <Nav>
     <NavContainer>
       <Header>A-PSYCK</Header>
-      <MobileIcon>
+      <MobileIcon onClick={toggle}>
         <FaBars />
       </MobileIcon>
       <NavMenu>
-          <NavLinks>Trade</NavLinks>
-          <NavLinks>Market</NavLinks>
-          <NavLinks>About us</NavLinks>
+          <NavLinks to='about'>Trade</NavLinks>
+          <NavLinks to='market'>Market</NavLinks>
+          <NavLinks to='about'>About us</NavLinks>
       </NavMenu>
     </NavContainer>
     </Nav>
